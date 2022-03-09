@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.max-width-1{
+  width: 80vw;
+}
+.max-width-2{
+  width: 60vw;
+}
+.max-width-3{
+  width: 90vw;
+}
+.m-auto{
+  margin: 50px auto;
+}
+.btn{
+  padding:0 5px;
+  padding-top: 3px;
+  border: 2px solid var(--mainBlack);
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-input{
+  padding: 0 5px;
+  padding-top: 3px;
+  font-size: 16px;
+  border: 2px solid var(--mainBlack);
+  border-radius: 4px;
+  margin: 0 13px;
+}
